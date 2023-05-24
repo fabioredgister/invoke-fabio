@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Prompt', 'Courier', sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+body{
+    background-color: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1)0%, rgba(67, 67, 162, 1)47%, rgba(0, 212, 255, 1)100%);
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav img{
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 0px 0px 30px rgb(2,0,36);
+}
+nav h1{
+    color: white;
+    font-size: 20px;
+    text-shadow: crimson;
+    
+}
+
+/* header */
+
+header{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+.header-content{
+    display: flex;
+    /* align-items: center; */
+}
+.header-content h2{
+    font-size: 48px;
+    color: white;
+    padding-top: 12px;
+
+}
+.header-img img{
+    height: 400px;
+    opacity: 1;
+    border-radius: 30% 70% 76% 24%/70% 30% 70% 30%;
+    animation: moveIMG 8s infinite alternate;
+}
+
+@keyframes moveIMG{
+    0%, 100%{
+        border-radius: 26% 64% 72% 24%/72% 32% 72% 32%;
+        box-shadow: 0px 0px 100px crimson;
+        height: 480;
+    }34%{
+        border-radius: 28% 68% 72% 26%/74% 34% 74% 34%;
+        box-shadow: 0px 0px 200px rgb(24, 0, 36);
+        height: 410;
+    }67%{
+        border-radius: 32% 72% 78% 28%/75% 36% 75% 36%;
+        box-shadow: 0px 0px 0px white;
+        height: 360;
+    };
+}
+
+/* section */
+
+section{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.apresentacao{
+    display: flex;
+    align-items: center;
+}
+.conte-conosco{
+    width: 40%;
+}
+.conte-conosco h3{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+}
+.conte-conosco img{
+    height: 70%;
+    width: 100%;
+    border-radius: 32% 72% 78% 28%/75% 36% 75% 36%;
+}
+.filosofia{
+    width: 60%;
+    
+}
+.filosofia p{
+    color: white;
+    font-size: 48px;
+    line-height: 40px;
+    margin: 0 32px;
+}
+.barra{
+    height: 1px;
+    width: 80%;
+    background-color: black;
+    margin: 102px auto;
+}
+.produtos h3{
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 5px 5px 5px black;
+}
+.produtos p{
+    font-size: 21px;
+    margin-top: 30px;
+}
+.produtos .banners{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 92px;
+}
+.banner{
+    
+}
